@@ -2,7 +2,7 @@
 - hosts: webservers
   become: yes 
   tasks: 
-        - name: i want to install java on ubuntu
+        - name: i want to install java 11 on ubuntu
           apt:
                name: "{{webserveronubuntu}}"
                state: present 
